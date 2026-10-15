@@ -12,9 +12,99 @@ body {
 }
 
 
-/* Pongo un fondo oscuro y centro el texto de la cabecera */
+/* Pongo un fondo oscuro y centro el texto de la cabecera en el index */
 #cabecera {
     background-color: navy;
     color: white;
     text-align: center;
+}
+
+/* Cambio el tamaño y pongo en cursiva el subtítulo */
+.subtitulo {
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* Pongo el menú oscuro y centro los enlaces */
+nav {
+    background-color: navy;
+    text-align: center;
+    color: white;
+    
+}
+
+
+/* Hago que los enlaces parezcan botones */
+nav a {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Cambio el color del botón al pasar el ratón */
+nav a:hover {
+    background-color: orange;
+}
+
+
+/* Cambio el color y decoro los títulos */
+h2 {
+    color: navy;
+    text-decoration: underline;
+}
+
+/* Ajusto el tamaño, el espacio entre líneas y la alineación */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+
+}
+
+
+/* Doy color, borde, espacio y esquinas redondeadas a las secciones */
+.seccion {
+    background-color: white;
+    border: 1px solid navy;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+/* Cambio el color y el tamaño de la lista desordenada */
+ul {
+    color: navy;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Cambio el color y pongo las letras en versalitas en la lista ordenada */
+ol {
+    color: green;
+    font-variant: small-caps;
+    line-height: 1.1;
+}
+
+/* Pongo este elemento en rojo y en negrita para destacarlo */
+.destacado {
+    color: red;
+    font-weight: bold;
+}
+
+
+/* Cambio el color de los enlaces que todavía no he visitado */
+a:link {
+    color: white;
+}
+
+/* Cambio el color de los enlaces que ya he visitado */
+a:visited {
+    color: red;
+}
+
+/* Cambio el color al pasar el ratón por encima */
+a:hover {
+    color: green  ;
 }
