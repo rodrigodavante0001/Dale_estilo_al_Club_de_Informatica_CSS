@@ -1,7 +1,20 @@
 /* =========================================================
    Práctica 1 — Hoja de estilos del Club de Informática SMR
-   Nombre y apellidos:
+   Nombre y apellidos: Rodrigo Delgado Romero
    ========================================================= */
 
-/* Escribe aquí tu CSS. Recuerda: cada regla con un comentario
-   que explique, con tus palabras, para qué sirve. */
+
+/* Pongo un estilo de letra y cambio el color del texto y del fondo */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: lightblue;
+}
+
+
+/* Pongo un fondo oscuro y centro el texto de la cabecera */
+#cabecera {
+    background-color: navy;
+    color: white;
+    text-align: center;
+}
