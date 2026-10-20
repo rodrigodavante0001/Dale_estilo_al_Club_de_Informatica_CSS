@@ -12,11 +12,12 @@ body {
 }
 
 
-/* Pongo un fondo oscuro y centro el texto de la cabecera en el index */
-#cabecera {
-    background-color: navy;
+/* Pongo una imagen de fondo en la cabecera */
+#cabecera   {
+    background-image: url("../img/fondo.png");
     color: white;
     text-align: center;
+    padding: 20px;
 }
 
 /* Cambio el tamaño y pongo en cursiva el subtítulo */
@@ -25,9 +26,8 @@ body {
     font-style: italic;
 }
 
-/* Pongo el menú oscuro y centro los enlaces */
+/* Centro los enlaces y les doy color */
 nav {
-    background-color: navy;
     text-align: center;
     color: white;
     
@@ -75,7 +75,7 @@ p {
 
 /* Cambio el color y el tamaño de la lista desordenada */
 ul {
-    color: navy;
+    color: rgb(4, 29, 118);
     font-size: 16px;
     line-height: 1.5;
 }
@@ -123,11 +123,7 @@ table, th, td{
     padding: 8px;
 }
 
-/* Destaco la fila de cabecera con otro color */
-th{
-    background-color: navy;
-    color: white;
-}
+
 
 /* Doy estilo al título de la tabla */
 caption{
@@ -198,7 +194,7 @@ button[type="reset"]{
 }
 
 nav{
-    background-color: #12294a;
+    
 }
 
 h2{
