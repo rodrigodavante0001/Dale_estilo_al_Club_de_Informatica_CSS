@@ -96,12 +96,12 @@ ol {
 
 /* Cambio el color de los enlaces que todavía no he visitado */
 a:link {
-    color: white;
+    color: red;
 }
 
 /* Cambio el color de los enlaces que ya he visitado */
 a:visited {
-    color: red;
+    color: white;
 }
 
 /* Cambio el color al pasar el ratón por encima */
