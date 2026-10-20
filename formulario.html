@@ -20,22 +20,23 @@
         <a href="https://www.medac.es" target="_blank">MEDAC</a>
     </nav>
 </div>
->
+    
     <h2>Formulario de inscripción</h2>
     <p>Rellena tus datos y elige las actividades que te interesan.</p>
 
     <form action="" method="get">
-        <fieldset>
+        
+            <div class="seccion">
             <legend>Datos personales</legend>
 
             <label for="nombre">Nombre y apellidos</label>
-            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required><br>
 
             <label for="email">Correo electrónico</label>
-            <input type="email" id="email" name="email" placeholder="tu@correo.es">
+            <input type="email" id="email" name="email" placeholder="Escribe tu correo"><br>
 
             <label for="clave">Contraseña</label>
-            <input type="password" id="clave" name="clave">
+            <input type="password" id="clave" name="clave" placeholder="Escribe tu contraseña"><br>
 
             <label for="curso">Curso</label>
             <select id="curso" name="curso">
@@ -45,29 +46,28 @@
             </select>
             </div>
         
-        </fieldset>
+        
         <div class="seccion">
-        <fieldset>
+        
             <legend>Actividades</legend>
-
+            
             <input type="checkbox" id="montaje" name="actividad" value="montaje">
-            <label for="montaje">Montaje de un PC</label>
+            <label for="montaje">Montaje de un PC</label><br>
 
             <input type="checkbox" id="wifi" name="actividad" value="wifi">
-            <label for="wifi">Red Wi-Fi segura</label>
+            <label for="wifi">Red Wi-Fi segura</label><br>
 
             <input type="checkbox" id="web" name="actividad" value="web" checked>
-            <label for="web">Primera web con HTML</label>
+            <label for="web">Primera web con HTML</label><br>
 
             <input type="checkbox" id="torneo" name="actividad" value="torneo">
             <label for="torneo">Torneo en red local</label>
         </div>
         
         <div class="seccion"
-       
-    
+           
         <fieldset>
-            <legend>Turno y comentarios</legend>
+           <legend></legend>
 
             <input type="radio" id="tarde" name="turno" value="tarde" checked>
             <label for="tarde">Tarde</label>
