@@ -108,3 +108,103 @@ a:visited {
 a:hover {
     color: green  ;
 }
+
+
+/* Hago que la tabla ocupe gran parte de la página y quede centrada */
+table{
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+/* Pongo bordes simples y espacio dentro de las celdas */
+table, th, td{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+/* Destaco la fila de cabecera con otro color */
+th{
+    background-color: navy;
+    color: white;
+}
+
+/* Doy estilo al título de la tabla */
+caption{
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+}
+
+/* Cambio el color de las filas al pasar el ratón */
+tr:hover{
+    background-color: lightgray;
+}
+
+
+/* Cambio el aspecto de los fieldset */
+fieldset{
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/* Destaco los títulos de cada apartado */
+legend{
+    color: navy;
+    font-weight: bold;
+}
+
+/* Doy tamaño y borde a los campos del formulario */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea{
+    width: 90%;
+    padding: 5px;
+    border: 1px solid gray;
+}
+
+/* Cambio el borde cuando estoy escribiendo */
+input:focus,
+select:focus,
+textarea:focus{
+    border: 2px solid red;
+}
+
+/* Diseño del botón enviar */
+button[type="submit"]{
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+}
+
+/* Diseño del botón borrar */
+button[type="reset"]{
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+}
+
+#pie{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+nav{
+    background-color: #12294a;
+}
+
+h2{
+    color: blue;
+}
+
+#pie{
+    color: rgb(255,255,255);
+}
